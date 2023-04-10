@@ -1,0 +1,53 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+a {
+    text-decoration: none;
+    color: #757575;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.logo-section {
+    text-align: left;
+    color: #1A1919;
+}
+
+.menu-section {
+    text-align: center;
+}
+
+.menu-section ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-section li {
+    margin-right: 20px;
+}
+
+.button-section {
+    text-align: right;
+}
+
+.button {
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    width: 190px;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+
+}
