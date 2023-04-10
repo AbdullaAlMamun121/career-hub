@@ -26,3 +26,10 @@
     text-align: center;
     color: #757575;
 }
+.btn-all{
+    display: flex;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    border: none;
+}

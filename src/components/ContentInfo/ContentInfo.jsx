@@ -45,7 +45,7 @@ const ContentInfo = () => {
             </div>
             {
               !showAllFeature && (
-                <button onClick={() => setShowAllFeature(true)}>Show All Items</button>
+                <button className='button btn-all' onClick={() => setShowAllFeature(true)}>Show All Items</button>
               ) 
             }
         </div>
