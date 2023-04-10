@@ -14,7 +14,6 @@ const ContentInfo = () => {
     
     const featureToPass = showAllFeature ? featured : featured.slice(0,4);
 
-    console.log(jobInfo.featured_job);
     return (
         <div>
             <HeaderBodyOne></HeaderBodyOne>

@@ -9,6 +9,7 @@ import {
 import Home from './components/Home/Home';
 import ContentInfo from './components/ContentInfo/ContentInfo';
 import jobLoader from './Loader/jobLoader';
+import JobFeaturedDetail from './components/JobFeaturedDetail/JobFeaturedDetail';
 
 const router = createBrowserRouter([
   {
@@ -20,7 +21,12 @@ const router = createBrowserRouter([
         element: <ContentInfo/>,
         loader:jobLoader
       },
-      
+      {
+        path:'featured_details/:id',
+        element:<JobFeaturedDetail/>,
+        
+      },
+
     ],
   },
 ])

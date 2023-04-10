@@ -1,8 +1,9 @@
 import React from 'react';
 import './JobFeature.css';
 import { FaLocationArrow,FaRegMoneyBillAlt } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 const JobFeature = ({ feature }) => {
-    const { title, salary,city, location, employment_type, logo, company_name
+    const {id, title, salary,city, location, employment_type, logo, company_name
     } = feature;
     return (
         <>
@@ -21,7 +22,7 @@ const JobFeature = ({ feature }) => {
                     </p>
                     <p><FaRegMoneyBillAlt />{salary}</p>
                 </div>
-                <button className='featured-details'>Details</button>
+                <Link to={`/featured_details/${id}`} className='featured-details'>Details</Link>
             </div>
         </>
     );
