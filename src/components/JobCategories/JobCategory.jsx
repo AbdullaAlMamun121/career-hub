@@ -4,7 +4,6 @@ import { FaBeer } from 'react-icons/fa';
 
 const JobCategory = ({jobCategory}) => {
     const {icon,name,available_jobs} = jobCategory;
-    console.log(jobCategory)
     return (
         <div className='category'>
             <img src={icon}/>

@@ -19,7 +19,8 @@ const router = createBrowserRouter([
         path: '/',
         element: <ContentInfo/>,
         loader:jobLoader
-      }
+      },
+      
     ],
   },
 ])
