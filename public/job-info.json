@@ -1,0 +1,140 @@
+{
+    "job_category": [
+      {
+        "id": 1,
+        "icon": "https://cdn-icons-png.flaticon.com/512/3242/3242257.png",
+        "name": "Web Developer",
+        "available_jobs": 50
+      },
+      {
+        "id": 2,
+        "icon": "https://cdn-icons-png.flaticon.com/512/2335/2335265.png",
+        "name": "Mobile Developer",
+        "available_jobs": 35
+      },
+      {
+        "id": 3,
+        "icon": "https://cdn-icons-png.flaticon.com/512/3305/3305671.png",
+        "name": "Data Scientist",
+        "available_jobs": 20
+      },
+      {
+        "id": 4,
+        "icon": "https://cdn-icons-png.flaticon.com/512/8448/8448908.png",
+        "name": "UX/UI Designer",
+        "available_jobs": 15
+      }
+    ],
+    "featured_job": [
+      {
+        "id": 1,
+        "logo": "abc-company-logo.png",
+        "title": "Senior Front-End Developer",
+        "company_name": "ABC Company",
+        "location": "New York",
+        "employment_type": "Full-Time",
+        "salary": "120,000 - 150,000 USD per year",
+        "description": "We are seeking a talented senior front-end developer to join our team. You will be responsible for creating and implementing user-friendly web interfaces and working closely with our design and back-end teams.",
+        "responsibilities": [
+          "Develop new user-facing features",
+          "Build reusable code and libraries for future use",
+          "Ensure the technical feasibility of UI/UX designs",
+          "Optimize application for maximum speed and scalability",
+          "Collaborate with other team members and stakeholders"
+        ],
+        "education_requirements": "Bachelor's or Master's degree in Computer Science or related field",
+        "experience_requirements": "5+ years of professional experience in front-end development"
+      },
+      {
+        "id": 2,
+        "logo": "xyz-company-logo.png",
+        "title": "Senior Data Scientist",
+        "company_name": "XYZ Company",
+        "location": "San Francisco",
+        "employment_type": "Full-Time",
+        "salary": "150,000 - 180,000 USD per year",
+        "description": "We are seeking an experienced data scientist to join our team. You will be responsible for developing predictive models, analyzing large datasets, and presenting insights to stakeholders.",
+        "responsibilities": [
+          "Design and implement predictive models",
+          "Analyze and interpret complex data sets",
+          "Communicate insights and recommendations to stakeholders",
+          "Collaborate with cross-functional teams",
+          "Stay up-to-date with industry trends and advancements"
+        ],
+        "education_requirements": "Master's or PhD in Computer Science, Statistics, or related field",
+        "experience_requirements": "7+ years of professional experience in data science"
+      },
+      {
+        "id":3,
+        "logo": "xyz-company-logo.png",
+        "title": "Senior Scientist",
+        "company_name": "ABC Company",
+        "location": "Lahore",
+        "employment_type": "Full-Time",
+        "salary": "150,00 - 180,000 USD per year",
+        "description": "We are seeking an experienced scientist to join our team. You will be responsible for developing predictive models, analyzing large datasets, and presenting insights to stakeholders.",
+        "responsibilities": [
+          "Design and implement predictive models",
+          "Communicate insights and recommendations to stakeholders",
+          "Collaborate with cross-functional teams",
+          "Stay up-to-date with industry trends and advancements"
+        ],
+        "education_requirements": "Master's in ICT, Statistics, or related field",
+        "experience_requirements": "3+ years of professional experience in data science"
+      },
+      {
+        "id": 4,
+        "logo": "xyz-company-logo.png",
+        "title": "UI/UX designers",
+        "company_name": "LKJ Company",
+        "location": "France",
+        "employment_type": "Part-Time",
+        "salary": "50,000 - 80,000 USD per year",
+        "description": "We are seeking an experienced UI/UX designers to join our team. You will be responsible for developing predictive models, analyzing large datasets, and presenting insights to stakeholders.",
+        "responsibilities": [
+          "Design and implement predictive models",
+          "Analyze and interpret complex data sets",
+          "Communicate insights and recommendations to stakeholders",
+          "Stay up-to-date with industry trends and advancements"
+        ],
+        "education_requirements": "Master's in Computer Science, or related field",
+        "experience_requirements": "6+ years of professional experience in data science"
+      },
+      {
+        "id": 5,
+        "logo": "xyz-company-logo.png",
+        "title": "Graphics Designer",
+        "company_name": "New Company",
+        "location": "Bangladesh",
+        "employment_type": "Full-Time",
+        "salary": "100,000 - 120,000 USD per year",
+        "description": "We are seeking an experienced Graphics Designer to join our team. You will be responsible for developing predictive models, analyzing large datasets, and presenting insights to stakeholders.",
+        "responsibilities": [
+          "Analyze and interpret complex data sets",
+          "Communicate insights and recommendations to stakeholders",
+          "Collaborate with cross-functional teams",
+          "Stay up-to-date with industry trends and advancements"
+        ],
+        "education_requirements": "Related field",
+        "experience_requirements": "7+ years of professional experience in data science"
+      },
+      {
+        "id": 6,
+        "logo": "xyz-company-logo.png",
+        "title": "Senior Back-end Developer",
+        "company_name": "XYZ Company",
+        "location": "San Francisco",
+        "employment_type": "Full-Time",
+        "salary": "180,000 - 190,000 USD per year",
+        "description": "We are seeking an experienced Senior Back-end Developer to join our team. You will be responsible for developing predictive models, analyzing large datasets, and presenting insights to stakeholders.",
+        "responsibilities": [
+          "Design and implement predictive models",
+          "Analyze and interpret complex data sets",
+          "Collaborate with cross-functional teams",
+          "Stay up-to-date with industry trends and advancements"
+        ],
+        "education_requirements": "Master's or PhD in Computer Science, Statistics, or related field",
+        "experience_requirements": "8+ years of professional experience in data science"
+      }
+    ]
+}

@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Home from './components/Home/Home';
 import ContentInfo from './components/ContentInfo/ContentInfo';
+import jobLoader from './Loader/jobLoader';
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,7 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <ContentInfo/>,
+        loader:jobLoader
       }
     ],
   },
