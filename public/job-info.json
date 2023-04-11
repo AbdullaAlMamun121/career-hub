@@ -28,7 +28,6 @@
     "featured_job": [
       {
         "id": 1,
-        "index":0,
         "logo": "https://img.freepik.com/free-vector/purple-abstract-geometrical-logo-3d_1043-55.jpg?w=740&t=st=1681121741~exp=1681122341~hmac=f949720384c84150e4a6b6dfa479615a70aee6252d57c6f3f236a57c693ff54f",
         "title": "Senior Front-End Developer",
         "company_name": "ABC Company",
@@ -51,7 +50,6 @@
       },
       {
         "id": 2,
-        "index":1,
         "logo": "https://img.freepik.com/free-vector/elegant-circle-logo-icon_126523-971.jpg?w=1060&t=st=1681121880~exp=1681122480~hmac=61736667825b3c0bc727c614378642daf74ec136d54ceafee00acc724bbbdfc8",
         "title": "Senior Data Scientist",
         "company_name": "XYZ Company",
@@ -74,7 +72,6 @@
       },
       {
         "id":3,
-        "index":2,
         "logo": "https://img.freepik.com/free-vector/colourful-abstract-logo-template_52683-24908.jpg?w=740&t=st=1681122055~exp=1681122655~hmac=b7866b9ff30e8a93621bea499ca13419b30674eda47686f3a34f647fc5ca3d82",
         "title": "Senior Scientist",
         "company_name": "ABC Company",
@@ -96,7 +93,6 @@
       },
       {
         "id": 4,
-        "index":3,
         "logo": "https://img.freepik.com/free-vector/flat-design-ac-logo-design_23-2149482027.jpg?w=740&t=st=1681122117~exp=1681122717~hmac=98668bcb4be52bb4031b5ef372784bf0b4a4467eebcb4e4a15802b9b642243ab",
         "title": "UI/UX designers",
         "company_name": "LKJ Company",
@@ -118,7 +114,6 @@
       },
       {
         "id": 5,
-        "index":4,
         "logo": "https://img.freepik.com/free-vector/gradient-abstract-logo_52683-8517.jpg?w=740&t=st=1681122158~exp=1681122758~hmac=2b53f254b0ff2b1392446ce71455a8864e701275367df7365f0c1f2fa2cdccb8",
         "title": "Graphics Designer",
         "company_name": "New Company",
@@ -140,7 +135,6 @@
       },
       {
         "id": 6,
-        "index":5,
         "logo": "https://img.freepik.com/free-vector/technological-logo-design_1424-39.jpg?w=740&t=st=1681122200~exp=1681122800~hmac=9f4ea1d532a7f2d474a9bcaef90b066cdb17ba6f187ca88a816caf4f2bb230ba",
         "title": "Senior Back-end Developer",
         "company_name": "XYZ Company",

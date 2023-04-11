@@ -22,7 +22,7 @@ const JobFeature = ({ feature }) => {
                     </p>
                     <p><FaRegMoneyBillAlt />{salary}</p>
                 </div>
-                <Link to={`/featured_details/${id}`} className='featured-details'>Details</Link>
+                <Link to={`/featured_details/${id}`} className='featured-details text-decoration-none'>Details</Link>
             </div>
         </>
     );

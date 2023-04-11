@@ -11,7 +11,7 @@ import ContentInfo from './components/ContentInfo/ContentInfo';
 import jobLoader from './Loader/jobLoader';
 import JobFeaturedDetail from './components/JobFeaturedDetail/JobFeaturedDetail';
 import AppliedJob from './components/AppliedJob/AppliedJob';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -28,7 +28,8 @@ const router = createBrowserRouter([
       },
      {
       path:'appliedJob',
-      element:<AppliedJob></AppliedJob>
+      element:<AppliedJob></AppliedJob>,
+      loader:jobLoader
      },
     ],
   },

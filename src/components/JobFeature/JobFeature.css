@@ -73,6 +73,6 @@
     border-radius: 4px;
     font-weight: 800;
     font-size: 20px;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     border:none;
 }
