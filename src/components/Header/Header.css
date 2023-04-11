@@ -52,3 +52,12 @@ a {
     background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
 
 }
+
+@media (max-width: 767px) {
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}

@@ -50,3 +50,11 @@
     max-width: 100%;
     height: auto;
 }
+@media (max-width: 768px) {
+    .header-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+}

@@ -10,6 +10,7 @@ const Header = () => {
       <div className="header-section menu-section">
         <nav>
           <ul>
+            <li><Link className='text-decoration-none' to="/">Home</Link></li>
             <li><Link className='text-decoration-none' to="/statistics">Statistics</Link></li>
             <li><Link className='text-decoration-none' to="/appliedJob">Applied Job</Link></li>
             <li><Link className='text-decoration-none' to="/blog">Blog</Link></li>
@@ -25,3 +26,4 @@ const Header = () => {
 };
 
 export default Header;
+

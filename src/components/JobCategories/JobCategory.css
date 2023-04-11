@@ -6,7 +6,17 @@
     text-align: left;
     margin-right: 15px;
     padding: 10px;
+    
 }
 .category img{
     width: 20%;
+}
+@media (min-width: 768px) {
+    .category{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       width: 50%;
+    }
 }

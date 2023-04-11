@@ -17,11 +17,11 @@ const ContentInfo = () => {
     return (
         <div>
             <HeaderBodyOne></HeaderBodyOne>
-            <div className='category-section'>
+            <div className='category-section '>
                 <h2 className="category-header">Job Category List</h2>
                 <p className='category-pera'>Explore thousands of job opportunities with all the information you need. Its your future</p>
                 <div className='categories'>
-                    {
+                {
                         jobCategories.map(jobCategory => <JobCategory
                             key={jobCategory.id}
                             jobCategory={jobCategory}

@@ -3,7 +3,7 @@ import './HeaderBodyOne.css'
 const HeaderBodyOne = () => {
     return (
         <div>
-            <header className="header-body">
+            <header className="header-body ">
                 <div className="header-section text-section mt-5">
                     <h1>One Step Closer To Your <span className='dream-text'>Dream Job</span></h1>
                     <p>Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
