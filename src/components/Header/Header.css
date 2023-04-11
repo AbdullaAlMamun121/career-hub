@@ -43,7 +43,7 @@ a {
 
 .button {
     display: inline-block;
-    color: #fff;
+    color: #fff !important;
     padding: 10px 20px;
     width: 190px;
     text-align: center;
