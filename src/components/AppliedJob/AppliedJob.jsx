@@ -9,6 +9,7 @@ const AppliedJob = () => {
     const jobInfo = useLoaderData();
     const featuredJob = jobInfo.featured_job;
     const [featured, setFeatured] = useState([]);
+    const [filteredFeatured, setFilteredFeatured] = useState([]);
 
     useEffect(() => {
         const appliedJob = getShoppingCart();
@@ -20,13 +21,32 @@ const AppliedJob = () => {
             }
         }
         setFeatured(savedAppliedJob);
+        setFilteredFeatured(savedAppliedJob);
     }, [featuredJob]);
+
+    const handleOnsiteJob = () => {
+        const addedOnsite = featured.filter(job => job.location === 'Onsite');
+        setFilteredFeatured(addedOnsite);
+    }
+    const handleRemoteJob = () => {
+        const addedRemote = featured.filter(job => job.location === 'Remote');
+        setFilteredFeatured(addedRemote);
+    }
+
 
     return (
         <div>
             <HeaderBodyTwo>Applied Job</HeaderBodyTwo>
+            <div className='position-relative w-75'>
+                <div className='position-absolute bottom-0 end-0 d-flex gap-2'>
+                    <Button onClick={handleOnsiteJob} variant="primary">Onsite job</Button>
+                    <Button onClick={handleRemoteJob} variant="primary">Remote job</Button>
+                </div>
+            </div>
             {
-                featured.map((featuredJob) => <Card style={{ width: '80rem', margin: '0 auto',marginBottom:'20px'}}>
+                filteredFeatured.map((featuredJob) => <Card 
+                key={featuredJob.id} 
+                style={{ width: '80rem', margin: '0 auto', marginBottom: '20px' }}>
                     <Card.Body >
                         <div className="row g-0">
                             <div className="col-md-2">
