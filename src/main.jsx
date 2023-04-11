@@ -14,6 +14,7 @@ import JobFeaturedDetail from './components/JobFeaturedDetail/JobFeaturedDetail'
 import AppliedJob from './components/AppliedJob/AppliedJob';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ErrorPage from './ErrorPage';
+import Statistics from './components/Statistics/Statistics';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path:'featured_details/:id',
         element:<JobFeaturedDetail/>,
+      },
+      {
+        path:'statistics',
+        element:<Statistics></Statistics>
       },
      {
       path:'appliedJob',
