@@ -9,7 +9,7 @@ const addToDb = id => {
     else {
         // const newQuantity = quantity + 1;
         // shoppingCart[id] = newQuantity;
-        alert('You have successfully applied for this job!');
+        alert('Already You have successfully applied for this job!');
     }
     localStorage.setItem('shopping-cart', JSON.stringify(shoppingCart));
 }
