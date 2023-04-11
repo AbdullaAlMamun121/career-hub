@@ -1,0 +1,6 @@
+.job-details{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    gap:10px;
+}
