@@ -6,7 +6,6 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-
 import Home from './components/Home/Home';
 import ContentInfo from './components/ContentInfo/ContentInfo';
 import jobLoader from './Loader/jobLoader';
@@ -15,6 +14,8 @@ import AppliedJob from './components/AppliedJob/AppliedJob';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ErrorPage from './ErrorPage';
 import Statistics from './components/Statistics/Statistics';
+import Blog from './components/Blog/Blog';
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
       element:<AppliedJob></AppliedJob>,
       loader:jobLoader
      },
+     {
+      path:'blog',
+      element:<Blog></Blog>
+     }
     ],
   },
 ])
