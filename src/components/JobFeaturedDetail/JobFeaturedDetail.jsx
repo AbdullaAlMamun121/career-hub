@@ -13,7 +13,7 @@ const JobFeaturedDetail = () => {
     useEffect(() => {
         const fetchFeaturedData = async () => {
             try {
-                const response = await fetch('../../public/job-info.json');
+                const response = await fetch('/public/job-info.json');
                 const data = await response.json();
                 setFeaturedData(data.featured_job);
                 setIsLoading(false);
